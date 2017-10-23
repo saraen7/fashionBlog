@@ -1,0 +1,195 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body {
+	margin: 0;
+	padding: 3em;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background: #FFF;
+	color: #444;
+	max-width: 40em;
+	border-left: 6px solid #DDD;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 1.75em;
+	font-weight: normal;
+	float: left;
+  /*margin-bottom: .5em;*/
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: normal;
+	color: black;
+	/*margin: 35px;*/
+	padding: 0;
+}
+h2 a {
+	color: inherit;
+  font-size: 1.25em;
+}
+h2 a:hover {
+	color: #D00;
+}
+
+.subtitle {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 0.8em;
+  color: #CCC;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #CCC;
+	margin: 0;
+	padding: 0;
+}
+
+aside h3 {
+  font-size: .8em;
+  color: 	#696969;
+}
+
+aside {
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 15px;
+}
+
+h4 {
+	text-align: right;
+}
+
+h4 a {
+  font-size: .75em;
+}
+
+img {
+	display: block;
+	margin: 10px 0;
+	max-width: 100%;
+}
+
+header h2 {
+	font-size: 1em;
+	margin-bottom: .5em;
+	float: left;
+  padding: 0px;
+}
+
+
+header nav a {
+	display: inline-block;
+	font-size: 0.75em;
+	color: #DDD;
+	/*border-bottom: 2px solid #EEE;*/
+}
+header nav a:hover {
+	color: black;
+	border-bottom-color: #BBB;
+}
+
+header nav {
+	clear: both;
+	background-color: black;
+  text-align: center;
+}
+
+
+a {
+	color: #D00;
+	text-decoration: none;
+	-webkit-transition: all 300ms;
+	width: 16.1901%;
+	border-right: 1px solid white;
+	align-content: center;
+  text-decoration: none;
+}
+a:hover {
+	color: #A00;
+}
+
+.last {
+  border-right: none;
+
+}
+
+.sidebarlast {
+    border-bottom: none;
+    padding-top: 15px;
+}
+
+#main {
+	float: left;
+	width: 66.6666%;
+}
+
+
+article {
+	border-bottom: 1px solid #DDD;
+	margin: 1.5em 0;
+	padding-bottom: 1.5em;
+}
+article p:first-letter {
+	float: left;
+	font-size: 5em;
+	line-height: 1;
+	color: #DDD;
+	margin: -.1em .1em 0 -.1em;
+}
+
+p, li {
+  font-size: 0.56em;
+  }
+
+li {
+  color: black;
+}
+
+.red {
+    	color: #D00;
+}
+
+section {
+	float: right;
+	width: 33.3333%;
+}
+
+.sidebar {
+  padding-left: 2em;
+  margin-top: 60px;
+}
+
+footer {
+	color: #BBB;
+	clear: both;
+}
+
+footer nav a {
+  font-size: 0.5em;
+  border-right: solid 1px #BBB;
+  padding: 0 5px;
+}
